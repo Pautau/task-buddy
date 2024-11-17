@@ -1,50 +1,41 @@
-# Welcome to your Expo app 👋
+# Task Manager
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Description
+Task Manager est une application simple de gestion des tâches. Elle permet à l'utilisateur de :
+- Afficher une liste des tâches existantes.
+- Créer de nouvelles tâches.
+- Supprimer des tâches existantes.
 
-## Get started
+Chaque tâche affiche les informations suivantes :
+- **Nom de la tâche**.
+- **Date de création**.
+- **Statut d'achèvement** 
 
-1. Install dependencies
+L'application utilise **React Native** sous **Expo** pour le front-end et **Supabase** comme backend pour la gestion des données.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Fonctionnalités
+1. **Affichage des tâches** :
+   - Les tâches sont récupérées depuis une base de données Supabase.
+   - Chaque tâche inclut :
+     - Son nom.
+     - La date et l'heure de création.
+     - Son statut (terminée ou non).
 
-   ```bash
-    npx expo start
-   ```
+2. **Ajout d'une tâche** :
+   - Ajoutez une nouvelle tâche en fournissant uniquement son nom.
+   - Les tâches ajoutées apparaissent automatiquement dans la liste.
 
-In the output, you'll find options to open the app in a
+3. **Suppression d'une tâche** :
+   - Supprimez une tâche en un seul clic.
+   - Les tâches supprimées sont immédiatement retirées de la liste.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Technologies utilisées
+- **React Native** : Framework JavaScript pour le développement mobile multiplateforme.
+- **Expo** : Plateforme pour créer rapidement des applications React Native.
+- **Supabase** : Backend-as-a-Service pour la gestion de base de données et API REST.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
