@@ -1,4 +1,5 @@
-# Task Manager
+# Task Manager (EN DEVELOPPEMENT)
+Je réalise ce mini-projet pour me familiariser avec les technologies React Native (je possède déjà les bases de React.js), Supabase et Expo
 
 ## Description
 Task Manager est une application simple de gestion des tâches. Elle permet à l'utilisateur de :
