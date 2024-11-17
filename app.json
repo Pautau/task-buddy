@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Task Buddy",
+    "slug": "task-buddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pautauorg.taskbuddy"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pautauorg.taskbuddy"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c5bc2a9e-1c0c-4787-9fce-7d5e016da7ba"
+      }
+    },
+    "owner": "pautau-org",
+    "updates": {
+      "url": "https://u.expo.dev/c5bc2a9e-1c0c-4787-9fce-7d5e016da7ba"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
